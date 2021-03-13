@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "npm install; sequelize db:create; nodemon ./bin/www;"
   },
   "dependencies": {
     "@tensorflow-models/handpose": "^0.0.7",
